@@ -49,4 +49,16 @@
             </plugin>
         </plugins>
     </build>
+
+    <!-- Nexus Repository Configuration -->
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <url>http://<your-server-ip>:8081/repository/nexus/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>http://<your-server-ip>:8081/repository/nexus/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
