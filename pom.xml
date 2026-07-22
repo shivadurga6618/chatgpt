@@ -8,7 +8,7 @@
     <artifactId>chatgpt</artifactId>
     <version>1.0.0</version>
     <!-- Change packaging from jar to war -->
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
