@@ -7,7 +7,6 @@
     <groupId>com.example</groupId>
     <artifactId>chatgpt</artifactId>
     <version>1.0.0</version>
-    <!-- Change packaging from jar to war -->
     <packaging>jar</packaging>
 
     <properties>
@@ -66,17 +65,6 @@
                 <version>3.1.1</version>
                 <configuration>
                     <retryFailedDeploymentCount>3</retryFailedDeploymentCount>
-                </configuration>
-            </plugin>
-
-            <!-- WAR plugin -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.4.0</version>
-                <configuration>
-                    <!-- Optional: specify webapp directory -->
-                    <warSourceDirectory>src/main/webapp</warSourceDirectory>
                 </configuration>
             </plugin>
         </plugins>
